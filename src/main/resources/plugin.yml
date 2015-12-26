@@ -1,0 +1,8 @@
+name: RandomLobby
+main: com.minespazio.Main
+author: cachorrohdz
+version: 1.0
+commands:
+  lobby:
+    usage: /lobby or /lobby <lobby name>
+    description: connects a player lobby

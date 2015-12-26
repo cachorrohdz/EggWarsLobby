@@ -1,0 +1,11 @@
+#####################################################
+# %name = player name
+# %args = insert text player
+# %lobbylist = avaible lobbys
+#####################################################
+Servers:
+    - lobby
+    - lobby2
+    - lobby3
+lobby-not-exits: "&cSorry &a%name &cthe lobby &e%args &cdoes not exist"
+lobby-list: "&aLobbys &e%lobbylist"
