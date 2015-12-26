@@ -32,7 +32,7 @@ public class Manager implements CommandExecutor{
             sender.sendMessage("§e§lRandomLobby§f§l§o: §e§l§oPlayers Only Online Can Do This");
             return true;
         }
-        if (arg1.getName().equalsIgnoreCase("lobby")) {
+        if ((arg1.getName().equalsIgnoreCase("lobby")) || (arg1.getName().equalsIgnoreCase("salir")) || (arg1.getName().equalsIgnoreCase("hub"))  || (arg1.getName().equalsIgnoreCase("leave"))) {
 
             if (args.length < 1) {
 

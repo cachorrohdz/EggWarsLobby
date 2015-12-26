@@ -6,3 +6,4 @@ commands:
   lobby:
     usage: /lobby or /lobby <lobby name>
     description: connects a player lobby
+    aliases: [salir, hub, leave]
